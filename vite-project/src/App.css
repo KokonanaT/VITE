@@ -3,11 +3,11 @@
 }
 
 .App-header {
-    padding: 20%;
+    padding: 30%;
     color: white;
     margin-top: 50%;
     border: 10px solid white;
-    width: 80%;
+    width: 90%;
     justify-content: center;
     align-self: center;
     border-radius: 10%;
@@ -25,6 +25,7 @@ Form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: larger;
 }
 
 div {
@@ -39,6 +40,7 @@ input {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 100%;
 }
 
 .error {
