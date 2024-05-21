@@ -1,23 +1,20 @@
 import React from 'react';
 
-function NameInput ({
-  value, onchanege, error
-}) 
-{
+function NameInput({ value, onChange, error }) {
   return (
     <div>
-    <label htmlFor="name">Name:</label>
-    <input
-      type="text"
-      id="name"
-      name="name"
-      placeholder="Name"
-      value={formData.name}
-      onChange={handleChange}
-      required
-    />
-    {errors.name && <span className="error"> Name is required</span>}
-  </div>
+      <label htmlFor="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Name"
+        value={value}
+        onChange={onChange}
+        required
+      />
+      {error && <span className="error">Name is required</span>}
+    </div>
   );
 }
 
